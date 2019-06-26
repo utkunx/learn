@@ -1,4 +1,4 @@
-# learn linux and arch distro
+# 1. learn linux and arch distro
 
 ## guides on how to install arch linux
 
@@ -36,7 +36,7 @@ merge
 -----------------
 -----------------
 
-# learn-docker-rails-vscode
+# 2. learn-docker-rails-vscode
 
 * [rails](docs/rails.md)
 * [docker master](docs/docker.md)
