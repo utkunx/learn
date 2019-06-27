@@ -1,4 +1,8 @@
-# `docker pull`, `docker run`, `docker images`, `-it`
+
+* `docker pull`
+* `docker run`
+* `-it`
+* `docker images`
 
 ----
 * [docker-baby-steps](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
