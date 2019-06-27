@@ -21,11 +21,15 @@
 
 ## ruby on rails, vs-code, docker, debug
 
-| pre settings for debug-ide | flag | flag | flag |
+|  **[`pre settings for debug-ide`](#project-requirements)**  | flag | flag | flag |
 | --- | :---: | :---: | :---: |
   **[`1. ruby gems`](#1-gems)**  |  **[`2. Gemfile`](#2-gemfile)**  | ? | ?
   **[`3. vs code launch.json`](#3-vs-code-launchjson-file)**  |  | ? | ?
   **[`4. Dockerfile`](#4-in-dockerfile)**  |  **[`5.in-entrypoint.sh`](#5-in-entrypointsh)**  | ? | ?
+
+|  **[`post settings debug-ide`](#post-syntax-)** | flag | flag | 
+| --- | :---: | :---: |
+**[`first build image`](#build)**  |  **[`then run it to container`](#run)**  | **[`start anytime`](#start)** |
 
 ----
 
