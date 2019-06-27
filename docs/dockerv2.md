@@ -1,4 +1,9 @@
+# `docker pull`, `docker run`, `docker images`, `-it`
+
+----
 * [docker-baby-steps](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
+
+----
 
 ## `docker images`
 
@@ -8,21 +13,19 @@
     * `Base images` are images that have no parent images, usually images with an `OS` like `ubuntu`, `alpine` or `debian`.
     * `Child images` are images that `build` on `base images` and add additional functionality.
 
--------------------------
-# `docker pull`, `docker run`, `docker images`, `-it`
+----
 
 ## `docker pull`
 
 * `docker pull alpine` command fetches image and saves it in our system.
 
------------------
+----
 
 ## `docker run`
 
 * `docker run alpine ls -l`
     * When you call `run`,
         * `docker pull` > create the `container` > `docker run`
-----
 
 * `docker run alpine /bin/sh`
     * These `interactive shells` will exit after running any scripted commands,
