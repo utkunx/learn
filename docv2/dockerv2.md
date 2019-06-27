@@ -84,8 +84,9 @@
 
 * port, first one belongs to `host` second  one to `container`
 
-                -p 3000:3000
-                -p 1234:1234
+            for single port     -p 3000:3000 
+            or
+            for multi ports     -p 3000:3000 -p 1234:1234
 
 ----
 
