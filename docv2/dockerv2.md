@@ -12,7 +12,7 @@
 **[`vscode-ide-rmt`](sample-settings-for-vscode-v2/rails-vscode-v2.md#Bonus)**  | ? | ? | ?
 **[`extarnal links`](#extarnal-links)**  | ? | ? | ?
 
-----
+---
 
 ## how to use `ruby`, `gems` ... 
 
@@ -28,14 +28,14 @@
   **[`3. vs code launch.json`](#3-vs-code-launchjson-file)**  |  |
   **[`4. Dockerfile`](#4-in-dockerfile)**  |  **[`5.in-entrypoint.sh`](#5-in-entrypointsh)**  |
 
-----
+---
 
 |  **[post settings debug-ide](#post-syntax-)** | flag | flag |
 | --- | :---: | :---: |
 **[first build image](#build)**  |  **[then run it to container](#run)**  | **[start anytime](#start)** |
 `docker build`  | `docker run`  | `docker start`  |
 
-----
+---
 
 ## `docker images`
 
