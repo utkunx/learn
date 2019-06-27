@@ -3,8 +3,8 @@
 
 ## Table of Contents | family | model | stepping 
 ----|-----|-----|-----|-----
-### **[`docker images`](#docker-images-1)**<br> | ### **[`docker pull`](#docker-pull-1)**<br> | 0x9e | 0xb 
-### **[`docker run`](#docker-run-1)**<br> | 0x006 | 0x9e | 0xa ? 
+### **[`docker images`](#docker-images-1)**<br> | **[`docker pull`](#docker-pull-1)**<br> | 0x9e | 0xb
+### **[`docker run`](#docker-run-1)**<br> | 0x006 | 0x9e | 0xa ?
 
 ## Table of Contents
 
