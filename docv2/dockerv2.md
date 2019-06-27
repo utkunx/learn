@@ -1,7 +1,7 @@
 # docker commands v2
 
 
-| [NEW ]Table of Contents | ? | ? | ? |
+| [NEW ]Table of Contents | flag | flag | flag |
 | --- | :---: | :---: | :---: |
 **[`docker images`](#docker-images-1)**<br> | ? | ? | ?
 **[`docker pull`](#docker-pull-1)**<br> | ? | ? | ?
@@ -57,8 +57,6 @@
 
 * `docker pull alpine` command fetches image and saves it in our system.
 
-----
-
 ## `docker run`
 
 * `docker run alpine ls -l`
@@ -84,11 +82,17 @@
 
 ### `-p`
 
-* port, first one belongs to `host` second  one to `container`
+* port(s) binding,
+  * `-p 3000:3001`
+    * first one `3000` belongs to `host`
+    * second  one `3001` to `container`
 
-            for single port     -p 3000:3000 
+            for single port     -p 3000:3001 
             or
             for multi ports     -p 3000:3000 -p 1234:1234
+
+* Port binding important! , When using dockerfile , build image, give it a name tag, then run, 
+but give it a port binding with the local machine(`host`) so that you can ACCESS it
 
 ----
 
@@ -128,3 +132,7 @@
 * [docker-baby-steps](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
 
 ----
+
+## rails
+
+### gems
