@@ -152,17 +152,17 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
 
 #### `Gemfile`
 
-        ```Gemfile
+    ```Gemfile
         group :development, :test do
         gem 'debase'
         gem 'ruby-debug-ide'
         end
-        ```
+    ```
 
 #### vs-code `launch.json` file
 
-        ```json
-          {
+```json
+        {
             "name": "Attach to Docker1",
             "type": "Ruby",
             "request": "attach",
@@ -171,12 +171,12 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
             "remoteWorkspaceRoot": "/",
             "cwd": "${workspaceRoot}", 
             "showDebuggerOutput": true
-          },
-        ````
+        },
+   ```
 
-        ````
+   ```json
         "cwd": "${workspaceRoot}" // important, your work space root must be
-        ````
+   ```
 
 #### `Dockerfile`
 
@@ -266,4 +266,4 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
                  }
             ]
           },
-        ````
+    ```
