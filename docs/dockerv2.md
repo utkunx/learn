@@ -2,23 +2,23 @@
 
 ## Table of Contents
 
-### **[`docker images`](#docker-images)**<br>
+### **[`docker images`](#docker-images-1)**<br>
 
-### **[`docker pull`](#docker-pull)**<br>
+### **[`docker pull`](#docker-pull-1)**<br>
 
-### **[`docker run`](#docker-run)**<br>
+### **[`docker run`](#docker-run-1)**<br>
 
-### **[`-it`](#-it)**<br>
+### **[`-it`](#-it-1)**<br>
 
-### **[`-p`](#-p)**<br>
+### **[`-p`](#-p-1)**<br>
 
-### **[`--name`](#--name)**<br>
+### **[`--name`](#--name-1)**<br>
 
-### **[`docker build`](#docker-build)**<br>
+### **[`docker build`](#docker-build-1)**<br>
 
-### **[`docker ps`](#docker-ps)**<br>
+### **[`docker ps`](#docker-ps-1)**<br>
 
-### **[`extarnal links`](#extarnal-links)**<br>
+### **[`extarnal links`](#extarnal-links-1)**<br>
 
 ----
 
