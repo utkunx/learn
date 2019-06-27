@@ -3,14 +3,14 @@
 
 | [NEW ]Table of docker | flag | flag | flag |
 | --- | :---: | :---: | :---: |
-**[`docker images`](#docker-images-1)**  | ? | ? | ?
-**[`docker pull`](#docker-pull-1)**  | ? | ? | ?
-**[`docker run`](#docker-run-1)**  | **[`-it`](#-it-1)**  | **[`-p`](#-p-1)**  | **[`--name`](#--name-1)**  
-**[`docker build`](#docker-build-1)**  | ? | ? | ?
-**[`docker ps`](#docker-ps-1)**  | ? | ? | ?
-**[`docker build`](#docker-build-1)**  | ? | ? | ?
+**[`docker images`](#docker-images)**  | ? | ? | ?
+**[`docker pull`](#docker-pull)**  | ? | ? | ?
+**[`docker run`](#docker-run)**  | **[`-it`](#-it)**  | **[`-p`](#-p)**  | **[`--name`](#--name)**  
+**[`docker build`](#docker-build)**  | ? | ? | ?
+**[`docker ps`](#docker-ps)**  | ? | ? | ?
+**[`docker build`](#docker-build)**  | ? | ? | ?
 **[`vscode-ide-rmt`](sample-settings-for-vscode-v2/rails-vscode-v2.md#Bonus)**  | ? | ? | ?
-**[`extarnal links`](#extarnal-links-1)**  | ? | ? | ?
+**[`extarnal links`](#extarnal-links)**  | ? | ? | ?
 
 ----
 
