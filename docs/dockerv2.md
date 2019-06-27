@@ -7,11 +7,12 @@
 ### **[`docker pull`](#docker-pull-1)**<br>
 
 ### **[`docker run`](#docker-run-1)**<br>
-  **[`-it`](#-it-1)**<br>
 
-### **[`-p`](#-p-1)**<br>
+* #### **[`-it`](#-it-1)**<br>
 
-### **[`--name`](#--name-1)**<br>
+* #### **[`-p`](#-p-1)**<br>
+
+* #### **[`--name`](#--name-1)**<br>
 
 ### **[`docker build`](#docker-build-1)**<br>
 
