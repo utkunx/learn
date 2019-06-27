@@ -61,4 +61,4 @@ merge
 
 ## first things first...
 
-* [visual code launch .json settings](sample/vs-code.md)
+* [visual code launch .json settings](sample-settings-for-vscode/rails-vscode.md)
