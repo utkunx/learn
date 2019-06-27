@@ -1,7 +1,7 @@
 # docker commands v2
 
 
-| [NEW ]Table of Contents | flag | flag | flag |
+| [NEW ]Table of docker | flag | flag | flag |
 | --- | :---: | :---: | :---: |
 **[`docker images`](#docker-images-1)**<br> | ? | ? | ?
 **[`docker pull`](#docker-pull-1)**<br> | ? | ? | ?
@@ -12,6 +12,13 @@
 **[`vscode-ide-rmt`](sample-settings-for-vscode-v2/rails-vscode-v2.md#Bonus)**<br> | ? | ? | ?
 **[`extarnal links`](#extarnal-links-1)**<br> | ? | ? | ?
 
+----
+
+| [NEW ]Table of ruby | flag | flag | flag |
+| --- | :---: | :---: | :---: |
+**[`ruby gems`](#Gem's-1)**<br> | ? | ? | ?
+
+----
 
 # ****
 
@@ -135,6 +142,22 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
 
 ----
 
-## rails
+## ruby
 
-### gems
+----
+
+### Gem's
+
+----
+
+* should give you all the info you need..
+
+        gem environment
+
+* How do I determine the location of my ruby gems?
+
+        gem which rails
+
+* to fetch home dir of your gems..
+
+        echo $GEM_HOME
