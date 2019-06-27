@@ -40,7 +40,7 @@ merge
 
 * [rails](docs/rails.md)
 * [docker master](docs/docker.md)
-* [docker unsorted](docs/docker-unsorted.md)
+* [(DIED) docker unsorted](docs/docker-unsorted.md)
 
 ## official guides
 * [docker official](https://github.com/docker/labs/tree/master/beginner/)
