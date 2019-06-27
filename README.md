@@ -38,7 +38,7 @@ merge
 
 # 2. learn-docker-rails-vscode
 
-* [rails](docs/rails.md)
+* [(DIED)rails](docs/rails.md)
 * [docker master](docs/docker.md)
 * [(DIED) docker unsorted](docs/docker-unsorted.md)
 
