@@ -1,13 +1,25 @@
 # docker commands v2
 
 
-| Table of Contents | ? | ? | ? |
+| [NEW ]Table of Contents | ? | ? | ? |
 | --- | :---: | :---: | :---: |
 **[`docker images`](#docker-images-1)**<br> | ? | ? | ?
 **[`docker pull`](#docker-pull-1)**<br> | ? | ? | ?
 **[`docker run`](#docker-run-1)**<br> | **[`-it`](#-it-1)**<br> | **[`-p`](#-p-1)**<br> | **[`--name`](#--name-1)**<br>
+**[`docker build`](#docker-build-1)**<br> | ? | ? | ?
+**[`docker ps`](#docker-ps-1)**<br> | ? | ? | ?
+**[`docker build`](#docker-build-1)**<br> | ? | ? | ?
+**[`extarnal links`](#extarnal-links-1)**<br> | ? | ? | ?
 
-## Table of Contents
+# ****
+
+# ----
+
+# ____
+
+## _____
+
+## [OLD ]Table of Contents
 
 ### **[`docker images`](#docker-images-1)**<br>
 
