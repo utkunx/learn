@@ -1,5 +1,7 @@
 # one page, all in
 
+docs/docker.md
+
 ## **[how to use `docker`](docs/docker.md#how-to-use-docker)** 
 
 |  **[Table of `docker`](docs/docker.md#how-to-use-docker)**  | flag | flag | flag |
@@ -12,7 +14,7 @@
 **[`vscode-ide-rmt`](docs/sample-settings-for-vscode-v2/rails-vscode-v2.md#visual-code-launch-settings)**  | ? | ? | ?
 **[`extarnal links`](docs/docker.md#extarnal-links)**  | ? | ? | ?
 
-docs/docker.md
+docs/ruby-rails.md
 
 ## how to use `ruby`, `gems` ... 
 
@@ -22,7 +24,7 @@ docs/docker.md
 
 ## ruby on rails, vs-code, docker, debug project
 
-## pre;
+## **[pre](docs/ruby-rails.md#gems)** ;
 
 |  **[pre settings for debug-ide](docs/ruby-rails.md##project-requirements)**  | flag | 
 | --- | :---: | 
@@ -30,7 +32,7 @@ docs/docker.md
   **[`3. vs code launch.json`](docs/ruby-rails.md##3-vs-code-launchjson-file)**  |  |
   **[`4. Dockerfile`](docs/ruby-rails.md##4-in-dockerfile)**  |  **[`5.in-entrypoint.sh`](docs/ruby-rails.md##5-in-entrypointsh)**  |
 
-## post;
+## **[post](docs/ruby-rails.md#gems)** ;
 
 |  **[post settings debug-ide](docs/ruby-rails.md##post-syntax-)** | flag | flag |
 | --- | :---: | :---: |
