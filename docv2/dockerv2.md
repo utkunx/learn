@@ -1,6 +1,10 @@
-# docker commands v2
+# one page, all in
 
-| Table of docker | flag | flag | flag |
+## how to use `docker` 
+
+----
+
+| Table of `docker` | flag | flag | flag |
 | --- | :---: | :---: | :---: |
 **[`docker images`](#docker-images)**  | ? | ? | ?
 **[`docker pull`](#docker-pull)**  | ? | ? | ?
@@ -12,13 +16,15 @@
 
 ----
 
-| Table of ruby | flag | flag | flag |
-| --- | :---: | :---: | :---: |
-  **[`ruby gems`](#gems)**  | ? | ? | ?
+## how to use `ruby`, `gems` ... 
 
 ----
 
-## ruby on rails, vs-code, docker, debug project
+| Table of `ruby` | flag | flag | flag |
+| --- | :---: | :---: | :---: |
+  **[`ruby gems`](#gems)**  | ? | ? | ?
+
+### ruby on rails, vs-code, docker, debug project
 
 |  **[pre settings for debug-ide](#project-requirements)**  | flag | 
 | --- | :---: | 
