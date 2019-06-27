@@ -72,6 +72,8 @@
 
 ### `-it`
 
+----
+
 * `-it` means `interactive terminal`
   * `-i`, `--interactive`; Keep STDIN open even if not attached
   * `-t`, `--tty`; Allocate a pseudo-TTY
