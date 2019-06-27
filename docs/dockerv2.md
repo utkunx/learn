@@ -101,41 +101,6 @@
 
 ----
 
-* here we go;
-
-* step for using `Dockerfile` ;
-
-	* build 
-	* run
-    * start
-    
-	* build, you build [image] from the `Dockerfile` ;
-
-          docker build -t sample_rails_app_docker:latest .
-    
-	* run, you make a [container] from this image and give it a essantials of; `name tag`, `ports using`, with command `run`
-    
-   		 	docker run -it -p 3000:3000 -p 1234:1234 --name XXY sample_rails_app_docker:latest
-    
-    	 * important config that you assign to the container are;
-         		* port, first one belongs to `host` second  one to `container`
-         
-          		-p 3000:3000
-         		-p 1234:1234
-         
-      		* name, give it name so you can easyly start it, 
-          
-          		  --name XXY
-                
-                
-	* start, after these steps, no need to use run, you can you it `start`
-    
-    		docker start XXY
-
-
-
-----
-
 ## extarnal links
 
 * [docker-baby-steps](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
