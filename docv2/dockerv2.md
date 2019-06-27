@@ -19,9 +19,13 @@
 
 ----
 
+## ruby on rails, vs-code, docker, debug
+
 | Table of working config | flag | flag | flag |
 | --- | :---: | :---: | :---: |
-  **[`ruby gems`](#gems)**  | ? | ? | ?
+  **[`1. ruby gems`](#1-gems)**  |  **[`2. Gemfile`](#2-gemfile)**  | ? | ?
+  **[`3. vs code launch.json`](#3-vs-code-launchjson-file)**  |  | ? | ?
+  **[`4. Dockerfile`](#4-in-dockerfile)**  |  **[`5.in-entrypoint.sh`](#5-in-entrypointsh)**  | ? | ?
 
 ----
 
