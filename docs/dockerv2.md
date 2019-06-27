@@ -1,13 +1,13 @@
+# docker commands v2
 
-* `docker pull`
-* `docker run`
-* `-it`
-* `docker images`
+## Table of Contents
 
-----
-* [docker-baby-steps](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
-
-----
+**[`docker images`](#`docker-images`)**<br>
+**[`docker pull`](#`docker-pull`)**<br>
+**[`docker run`](#`docker-run`)**<br>
+**[`-it`](#`-it`)**<br>
+**[`docker ps`](#`docker-ps`)**<br>
+**[`extarnal links`](#extarnal-links)**<br>
 
 ## `docker images`
 
@@ -36,6 +36,10 @@
 * `docker run -it alpine /bin/sh`
     * unless they are run in an `interactive terminal`
 
+----
+
+## `-it`
+
 * `-it` means `interactive terminal`
     * `-i`, `--interactive`; Keep STDIN open even if not attached
     * `-t`, `--tty`; Allocate a pseudo-TTY
@@ -48,3 +52,11 @@
 
 * `docker ps` command shows you all `containers` that are currently running.
 * `docker ps -a` command shows a list of all `containers` that you ran.
+
+----
+
+## extarnal links
+
+* [docker-baby-steps](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
+
+----
