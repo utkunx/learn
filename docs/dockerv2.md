@@ -3,11 +3,18 @@
 ## Table of Contents
 
 **[`docker images`](#docker-images)**<br>
+
 **[`docker pull`](#docker-pull)**<br>
+
 **[`docker run`](#docker-run)**<br>
+
 **[`-it`](#-it)**<br>
+
 **[`docker ps`](#docker-ps)**<br>
+
 **[`extarnal links`](#extarnal-links)**<br>
+
+----
 
 ## `docker images`
 
