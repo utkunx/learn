@@ -145,12 +145,12 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
 
 ### Project requirements
 
-#### Gems
+#### 1. gems
 
 * `ruby-debug-ide`
 * `debase`
 
-#### `Gemfile`
+#### 2. `Gemfile`
 
 ```Gemfile
         group :development, :test do
@@ -159,7 +159,7 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
         end
 ```
 
-#### vs-code `launch.json` file
+#### 3. vs-code `launch.json` file
 
    ```json
         {
@@ -178,14 +178,14 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
             "cwd": "${workspaceRoot}" // important, your work space root must be
    ```
 
-#### in `Dockerfile`
+#### 4. in `Dockerfile`
 
    ```Dockerfile
             EXPOSE 1234 3000
             // 1234 port used for debug
    ```
     
-#### in `entrypoint.sh`
+#### 5. in `entrypoint.sh`
 
    ```sh
         #!/bin/bash
