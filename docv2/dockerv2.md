@@ -62,7 +62,7 @@
 * `docker run -it alpine /bin/sh`
   * unless they are run in an `interactive terminal`
 
-### `-it`
+## `-it`
 
 * `-it` means `interactive terminal`
   * `-i`, `--interactive`; Keep STDIN open even if not attached
@@ -70,9 +70,9 @@
 
 * other commands, `ls -l`, `uname -a`
 
----:
+---
 
-### `-p`
+## `-p`
 
 * port(s) binding,
   * `-p 3000:3001`
