@@ -2,8 +2,6 @@
 
 ## how to use `docker` 
 
-----
-
 | Table of `docker` | flag | flag | flag |
 | --- | :---: | :---: | :---: |
 **[`docker images`](#docker-images)**  | ? | ? | ?
@@ -17,8 +15,6 @@
 ----
 
 ## how to use `ruby`, `gems` ... 
-
-----
 
 | Table of `ruby` | flag | flag | flag |
 | --- | :---: | :---: | :---: |
