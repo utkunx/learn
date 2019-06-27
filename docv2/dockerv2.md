@@ -5,7 +5,6 @@
 **[`docker images`](#docker-images)**  | ? | ? | ?
 **[`docker pull`](#docker-pull)**  | ? | ? | ?
 **[`docker run`](#docker-run)**  | **[`-it`](#-it)**  | **[`-p`](#-p)**  | **[`--name`](#--name)**  
-**[`docker build`](#docker-build)**  | ? | ? | ?
 **[`docker ps`](#docker-ps)**  | ? | ? | ?
 **[`docker build`](#docker-build)**  | ? | ? | ?
 **[`vscode-ide-rmt`](sample-settings-for-vscode-v2/rails-vscode-v2.md#Bonus)**  | ? | ? | ?
