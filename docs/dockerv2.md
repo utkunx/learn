@@ -51,7 +51,7 @@
 
 ----
 
-## `-it`
+### `-it`
 
 * `-it` means `interactive terminal`
     * `-i`, `--interactive`; Keep STDIN open even if not attached
@@ -61,7 +61,7 @@
 
 ----
 
-## `-p`
+### `-p`
 
 * port, first one belongs to `host` second  one to `container`
 
@@ -70,7 +70,7 @@
 
 ----
 
-## `--name`
+### `--name`
 
 * name, give it name so you can easyly start it,
 
