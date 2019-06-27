@@ -30,7 +30,8 @@
 
 |  **[post settings debug-ide](#post-syntax-)** | flag | flag |
 | --- | :---: | :---: |
-**[`first build image`](#build)**  |  **[`then run it to container`](#run)**  | **[`start anytime`](#start)** |
+**[first build image](#build)**  |  **[then run it to container](#run)**  | **[start anytime](#start)** |
+`docker build`  | `docker run`  | `docker start`  |
 
 ----
 
