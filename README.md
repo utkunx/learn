@@ -14,4 +14,34 @@
 
 docs/docker.md
 
+## how to use `ruby`, `gems` ... 
+
+| Table of `ruby` | flag | flag | flag |
+| --- | :---: | :---: | :---: |
+  **[`ruby gems`](docs/ruby-rails.md#gems)**  | ? | ? | ?
+
+## ruby on rails, vs-code, docker, debug project
+
+## pre;
+
+|  **[pre settings for debug-ide](docs/ruby-rails.md##project-requirements)**  | flag | 
+| --- | :---: | 
+  **[`1. ruby gems`](docs/ruby-rails.md##1-gems)**  |  **[`2. Gemfile`](docs/ruby-rails.md##2-gemfile)**  |
+  **[`3. vs code launch.json`](docs/ruby-rails.md##3-vs-code-launchjson-file)**  |  |
+  **[`4. Dockerfile`](docs/ruby-rails.md##4-in-dockerfile)**  |  **[`5.in-entrypoint.sh`](docs/ruby-rails.md##5-in-entrypointsh)**  |
+
+## post;
+
+|  **[post settings debug-ide](docs/ruby-rails.md##post-syntax-)** | flag | flag |
+| --- | :---: | :---: |
+**[first build image](docs/ruby-rails.md##build)**  |  **[then run it to container](docs/ruby-rails.md##run)**  | **[start anytime](docs/ruby-rails.md##start)** |
+`docker build`  | `docker run`  | `docker start`  |
+
+---
+
+
+
+
+
+---
 ## **[Table of `docker`](docs/docker.md#how-to-use-docker)** 
