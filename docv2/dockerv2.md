@@ -21,7 +21,7 @@
 
 ## ruby on rails, vs-code, docker, debug
 
-| Table of working config | flag | flag | flag |
+| pre settings for debug-ide | flag | flag | flag |
 | --- | :---: | :---: | :---: |
   **[`1. ruby gems`](#1-gems)**  |  **[`2. Gemfile`](#2-gemfile)**  | ? | ?
   **[`3. vs code launch.json`](#3-vs-code-launchjson-file)**  |  | ? | ?
@@ -199,32 +199,34 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
         exec "$@"
    ```
 
-#### lets start ;
+### post syntax ;
+
+#### build
 
 * step for using `Dockerfile` ;
-
-  * build
-  * run
-  * start
-    * build, you build [image] from the `Dockerfile` ;
+* build, you build [image] from the `Dockerfile` ;
 
           docker build -t sample_rails_app_docker:latest .
 
-    * run, you make a [container] from this image and give it a essantials of; `name tag`, `ports using`, with command `run`
+#### run
+
+* run, you make a [container] from this image and give it a essantials of; `name tag`, `ports using`, with command `run`
 
         docker run -it -p 3000:3000 -p 1234:1234 --name XXY sample_rails_app_docker:latest
 
-      * important config that you assign to the container are;
-        * port, first one belongs to `host` second  one to `container`
+  * important config that you assign to the container are;
+    * port, first one belongs to `host` second  one to `container`
 
                 -p 3000:3000
                 -p 1234:1234
 
-        * name, give it name so you can easyly start it, 
+    * name, give it name so you can easyly start it, 
 
                   --name XXY
 
-    * start, after these steps, no need to use run, you can you it `start`
+#### start
+
+* start, after these steps, no need to use run, you can you it `start`
 
             docker start XXY
 
