@@ -10,6 +10,7 @@
 **[`docker ps`](#docker-ps-1)**<br> | ? | ? | ?
 **[`docker build`](#docker-build-1)**<br> | ? | ? | ?
 **[`extarnal links`](#extarnal-links-1)**<br> | ? | ? | ?
+**[`extarnal me`](sample-settings-for-vscode-v2/rails-vscode-v2.md#Bonus)**<br> | ? | ? | ?
 
 # ****
 
