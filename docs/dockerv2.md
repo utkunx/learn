@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-**[`docker images`](#`docker-images`)**<br>
+**[`docker images`](#docker-images)**<br>
 **[`docker pull`](#`docker-pull`)**<br>
 **[`docker run`](#`docker-run`)**<br>
 **[-it](##`-it`)**<br>
