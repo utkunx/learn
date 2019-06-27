@@ -35,23 +35,23 @@
 
 ---
 
-## `docker images`
+### `docker images`
 
 * `docker images` command to see a list of all images on your system.
 
 * An important distinction with regard to images is between `base images` and `child images`.
-    * `Base images` are images that have no parent images, usually images with an `OS` like `ubuntu`, `alpine` or `debian`.
-    * `Child images` are images that `build` on `base images` and add additional functionality.
+  * `Base images` are images that have no parent images, usually images with an `OS` like `ubuntu`, `alpine` or `debian`.
+  * `Child images` are images that `build` on `base images` and add additional functionality.
 
-----
+---
 
-## `docker pull`
+### `docker pull`
 
 * `docker pull alpine` command fetches image and saves it in our system.
 
-----
+---
 
-## `docker run`
+### `docker run`
 
 * `docker run alpine ls -l`
   * When you call `run`,
@@ -62,7 +62,9 @@
 * `docker run -it alpine /bin/sh`
   * unless they are run in an `interactive terminal`
 
-## `-it`
+---
+
+### `-it`
 
 * `-it` means `interactive terminal`
   * `-i`, `--interactive`; Keep STDIN open even if not attached
@@ -72,7 +74,7 @@
 
 ---
 
-## `-p`
+### `-p`
 
 * port(s) binding,
   * `-p 3000:3001`
@@ -86,7 +88,7 @@
 * Port binding important! , When using dockerfile , build image, give it a name tag, then run, 
 but give it a port binding with the local machine(`host`) so that you can ACCESS it
 
-----
+---
 
 ### `--name`
 
@@ -94,9 +96,9 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
 
              --name XXY
 
-----
+---
 
-## `docker build`
+### `docker build`
 
 1. `build`, you build [image] from the `Dockerfile` ;
 
@@ -110,28 +112,26 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
 
             docker start XXY
 
-----
+---
 
-## `docker ps`
+### `docker ps`
 
 * `docker ps` command shows you all `containers` that are currently running.
 * `docker ps -a` command shows a list of all `containers` that you ran.
 
-----
+---
 
-## extarnal links
+### extarnal links
 
 * [docker-baby-steps](https://github.com/docker/labs/blob/master/beginner/chapters/webapps.md)
 
-----
+---
 
 ## ruby
 
-----
+---
 
 ### Gem's
-
-----
 
 * should give you all the info you need..
 
@@ -145,13 +145,15 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
 
         echo $GEM_HOME
 
-----
+---
 
-## ruby on rails, vs-code, docker, debug
+### ruby on rails, vs-code, docker, debug
 
 21 jun 2019
 
 ### Project requirements
+
+---
 
 #### 1. gems
 
@@ -192,7 +194,7 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
             EXPOSE 1234 3000
             // 1234 port used for debug
    ```
-    
+
 #### 5. in `entrypoint.sh`
 
    ```sh
@@ -203,16 +205,18 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
         exec "$@"
    ```
 
+---
+
 ### post syntax ;
 
-#### build
+### build
 
 * step for using `Dockerfile` ;
 * build, you build [image] from the `Dockerfile` ;
 
           docker build -t sample_rails_app_docker:latest .
 
-#### run
+### run
 
 * run, you make a [container] from this image and give it a essantials of; `name tag`, `ports using`, with command `run`
 
@@ -228,13 +232,15 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
 
                   --name XXY
 
-#### start
+### start
 
 * start, after these steps, no need to use run, you can you it `start`
 
             docker start XXY
 
-## (nouse)alternatives
+---
+
+## (nouse)alternatives(temp)(delete)
 
 * `rdebug-ide --debug --host 0.0.0.0 --port 1234 --dispatcher-port 26162 -- bin/rails server`
 
@@ -271,3 +277,4 @@ but give it a port binding with the local machine(`host`) so that you can ACCESS
             ]
           },
     ```
+---
