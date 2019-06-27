@@ -3,8 +3,9 @@
 
 | Table of Contents | ? | ? | ? |
 | --- | :---: | :---: | :---: |
-**[`docker images`](#docker-images-1)**<br> | **[`docker pull`](#docker-pull-1)**<br> | 0x9e | 0xb
-**[`docker run`](#docker-run-1)**<br> | 0x006 | 0x9e | 0xa ?
+**[`docker images`](#docker-images-1)**<br> | ? | ? | ?
+**[`docker pull`](#docker-pull-1)**<br> | ? | ? | ?
+**[`docker run`](#docker-run-1)**<br> | **[`-it`](#-it-1)**<br> | **[`-p`](#-p-1)**<br> | **[`--name`](#--name-1)**<br>
 
 ## Table of Contents
 
