@@ -6,33 +6,35 @@ description: 001 arch-linux-install.md
 
 # Install ARCH Linux with encrypted file-system and UEFI
 
-| sample code | steps sum |
-|---|---|
-| 000 | pre info |
-| 000 | boot media steps |
-| 000 | start |
-| 333 | Create partitions |
-| 333 | Create encrypted partitions |
-| 333 | Create filesystems on encrypted partitions |
-| 4 | Mount the new system |
-| 5 | Install the system |
-| 6 | Generate fstab |
-| ? | Make `/tmp` a ramdisk `\`(add the following line to /`mnt/etc/fstab\`) |
-| 777 | Enter the new system |
-| 777 | Setup system clock |
-| 777 | Set the hostname |
-| 777 | Generate locale |
-| 888 | Set password for root |
-| 888 | Add user
-| 999 | Configure `mkinitcpio` with modules needed for the `initrd` image |
-| 999 | Regenerate initrd image |
-| 999 | Setup systembootd \(`grub` will not work on nvme at this moment\) |
-| 999 | Create loader.conf |
-| 999 | Create `arch.conf` \(or XYZ.conf for default XYZ in loader.conf\) |
-| 999 | Add the following content to arch.conf |
-| 1111 | Exit new system |
-| 2222 | Unmount all partitions |
-| 3333 | Reboot into the new system, don't forget to remove the cd/usb |
+| code 1| code 1 | code 2 |steps sum |
+|---|---|---|---|
+| info | - | 000 | pre info |
+| boot | - | 000 | boot media steps |
+| boot | - | 000 | Boot from USB drive |
+| wifi | `wifi-menu` | *** | wifi |
+| partitions | `cgdisk` | 333 | Create partitions |
+| partitions | `cryptsetup` | 333 | Setup the encryption |
+| partitions | `pvcreate` | 333 | Create encrypted partitions |
+| partitions | `mkfs.ext4` | 333 | Create filesystems on encrypted partitions |
+| mount | `mount` | 4 | Mount the new system |
+| install system | `pacstrap` | 5 | Install the system |
+| fstab | `genfstab` | 6 | Generate fstab |
+| - | ? | ? | Make `/tmp` a ramdisk `\`(add the following line to /`mnt/etc/fstab\`) |
+| enter-root | `chroot` | 777 | Enter the new system |
+| config | `clock` | 777 | Setup system clock |
+| config | `hostname` | 777 | Set the hostname |
+| config | `locale` | 777 | Generate locale |
+| password | pass | 888 | Set password for root |
+| user | user | 888 | Add user
+| - | grub | 999 | Configure `mkinitcpio` with modules needed for the `initrd` image |
+| - | grub | 999 | Regenerate initrd image |
+| - | grub | 999 | Setup systembootd \(`grub` will not work on nvme at this moment\) |
+| - | grub | 999 | Create loader.conf |
+| - | grub | 999 | Create `arch.conf` \(or XYZ.conf for default XYZ in loader.conf\) |
+| - | grub | 999 | Add the following content to arch.conf |
+| - | exit | 1111 | Exit new system |
+| - | mount | 2222 | Unmount all partitions |
+| - | reboot | 3333 | Reboot into the new system, don't forget to remove the cd/usb |
 
 
 
@@ -40,9 +42,7 @@ description: 001 arch-linux-install.md
 
 # pre info
 
-   * everythiing seems to working,
-    * (Minimal instructions for installing arch linux on an UEFI NVMe system with full system encryption using dm-crypt and luks)
-    * The official installation guide \([https://wiki.archlinux.org/index.php/Installation\_Guide](https://wiki.archlinux.org/index.php/Installation_Guide)\) contains a more verbose description.
+* (Minimal instructions for installing arch linux on an UEFI NVMe system with full system encryption using dm-crypt and luks)
 
 # boot media steps
 
@@ -52,13 +52,14 @@ description: 001 arch-linux-install.md
 * Copy to a USB drive
     * `dd if=archlinux.img of=/dev/sdX bs=16M && sync # on linux`
 
-# start
+# Boot from USB drive
 
 * Boot from USB drive
     * If the usb fails to boot, make sure that secure boot is disabled in the BIOS configuration.
 
-* This assumes a wifi only system...
-    * `wifi-menu`
+# wifi
+
+ * `wifi-menu`
 
 # Create partitions
 
@@ -69,6 +70,8 @@ description: 001 arch-linux-install.md
 
 * Create EFI partition
     * `mkfs.vfat -F32 -n EFI /dev/nvme0n1p1`
+
+# Setup the encryption
 
 * Setup the encryption of the system with 256 bit effective size
 
@@ -197,3 +200,6 @@ Note: Many NVMe drives can exceed 2GB/s, consider your crypto algorithm wisely, 
 * `reboot`
 
 
+# links
+
+* The official installation guide \([https://wiki.archlinux.org/index.php/Installation\_Guide](https://wiki.archlinux.org/index.php/Installation_Guide)\) contains a more verbose description.
