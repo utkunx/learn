@@ -64,3 +64,14 @@
 | Content Cell  | Content Cell  |
 
 # arch linux install...
+
+---
+
+# daily source
+
+## day 29.06.2019
+
+### bash commands 
+https://www.unr.edu/research-computing/the-grid/using-the-grid/bash-commands
+
+* `history`
