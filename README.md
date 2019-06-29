@@ -1,6 +1,6 @@
 # one page, all in
 
-docs/docker.md
+# docker (docs/docker.md)
 
 ## **[how to use `docker`](docs/docker.md#how-to-use-docker)** 
 
@@ -14,11 +14,11 @@ docs/docker.md
 **[`vscode-ide-rmt`](docs/sample-settings-for-vscode-v2/rails-vscode-v2.md#visual-code-launch-settings)**  | ? | ? | ?
 **[`extarnal links`](docs/docker.md#extarnal-links)**  | ? | ? | ?
 
-docs/ruby-rails.md
+# rails (docs/ruby-rails.md)
 
 ## how to use `ruby`, `gems` ... 
 
-| Table of `ruby` | flag | flag | flag |
+|  **[Table of `ruby`](docs/ruby-rails.md#how-to-use-ruby-gems-)**  | flag | flag | flag |
 | --- | :---: | :---: | :---: |
   **[`ruby gems`](docs/ruby-rails.md#gems)**  | ? | ? | ?
 
@@ -41,9 +41,9 @@ docs/ruby-rails.md
 
 ---
 
-
-
-
+# temp (docs/temp.md)
 
 ---
-## **[Table of `docker`](docs/docker.md#how-to-use-docker)** 
+
+# lets linux 
+
