@@ -52,4 +52,11 @@
 **[“Unable to locate package” error in Kali](linux-guides-docs/fixes.md#fix-unable-to-locate-package-error-in-kali-linux)**  | ? | ? | ?
 **[How to delete GRUB files from a Boot EFI partition in Windows 10](linux-guides-docs/fixes.md#how-to-delete-grub-files-from-a-boot-efi-partition-in-windows-10)**  | ? | ? | ?
 **[How to fix “chown: invalid group:” if the user does not exist on the running system?](linux-guides-docs/fixes.md#how-to-fix-chown-invalid-group-if-the-user-does-not-exist-on-the-running-system)**  | ? | ? | ?
+**[intel microcode](linux-guides-docs/fixes.md#intel-microcode)**  | ? | ? | ?
 
+# problems...
+
+|tags | Name  | Desp... |
+| ------ | ------------- | ------------- |
+|#kernel #modules | [FAILED] Failed to start Load Kernel Modules See | ```systemctl status systemd-modules-load.service```  for details |
+| Content Cell  | Content Cell  |

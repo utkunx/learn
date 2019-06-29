@@ -61,27 +61,35 @@ listing its contents to identify what subfolder the GRUB files would be.
 
 * so basiccly ;
     * `sudo chown -R $USER:$USER .` does not WORK.
-    * `sudo chown -R 1001:1001 .` doest work
+    * `sudo chown -R 1001:1001 .` does work
 
 # intel microcode
 
+Processor Model | Stepping | Identifier(Stepping F-MO-S/PI) | Version (Old->New)| Products |
+|----|-----|-----|-----|-----|
+| CFL-H/S/E3 | U0 | 6-9e-a/22 | 000000aa->000000b4 | Core Gen8 Desktop, Mobile, Xeon E |
+
 * if a processor signature is 0x000906eb, it means
 Family=0x006, Model=0x9e and Stepping=0xb
+
   * to 0x000906ea
     * signature | family | model | stepping
       ----|-----|-----|-----|-----
       0x000906eb | 0x006 | 0x9e | 0xb
       0x000906ea | 0x006 | 0x9e | 0xa ?
 
-* Processor Model | Stepping | Identifier(Stepping F-MO-S/PI) | Version (Old->New)| Products |
-  |----|-----|-----|-----|-----|
-  | CFL-H/S/E3 | U0 | 6-9e-a/22 | 000000aa->000000b4 | Core Gen8 Desktop, Mobile, Xeon E |
-  
-0x000906eb | 0x006 | 0x9e | 0xb
-0x000906ea | 0x006 | 0x9e | 0xa ?
+# How to give new UUID to a partition on disk procedure ? 
 
+   * `e2fsck -f /dev/nvme1n1p7` first run it check filesystem (mantetory for tune2fs to work)
+   * `tune2fs -U $(uuidgen) /dev/nvme1n1p7` then run it give new UUID to that partition...
+     * `blkid` list all partitions labels and UUID's
+	 * `/dev/nvme0n1: PTUUID="c3901cef-7db3-6843-a8e2-1166aa043855" PTTYPE="gpt"`
+     * `fstab(5)` fstab filesystem mount points manager
+	 * `/etc/fstab` where the the file stored.
+---
 
-Processor             Identifier     Version       Products
-Model        Stepping F-MO-S/PI      Old->New
----- updated platforms ------------------------------------
-CFL-H/S/E3   U0       6-9e-a/22 000000aa->000000b4 Core Gen8 Desktop, Mobile, Xeon E
+| `commands`  | extra param  | into |
+| :------------ |:---------------:| -----:|
+| `e2fsck`      | -f /dev/nvme1n1p7 | it must be runned to `tune2fs` work later... |
+| `tune2fs`      | -U $(uuidgen) /dev/nvme1n1p7        |   $12 |
+| zebra stripes | are neat        |    $1 |
