@@ -93,3 +93,7 @@ Family=0x006, Model=0x9e and Stepping=0xb
 | `e2fsck`      | -f /dev/nvme1n1p7 | it must be runned to `tune2fs` work later... |
 | `tune2fs`      | -U $(uuidgen) /dev/nvme1n1p7        |   $12 |
 | zebra stripes | are neat        |    $1 |
+
+# print boot logs
+
+* `journalctl -b`
