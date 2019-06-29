@@ -56,11 +56,11 @@
 **[How to fix “chown: invalid group:” if the user does not exist on the running system?](linux-guides-docs/fixes.md#how-to-fix-chown-invalid-group-if-the-user-does-not-exist-on-the-running-system)**  | ? | ? | ?
 **[How to give new UUID to a partition on disk procedure ? ](linux-guides-docs/fixes.md#how-to-give-new-uuid-to-a-partition-on-disk-procedure-)**  | ? | ? | ?
 
-
-
-# problems...
+# (TEMP)problems...
 
 |tags | Name  | Desp... |
 | ------ | ------------- | ------------- |
 |#kernel #modules | [FAILED] Failed to start Load Kernel Modules See | ```systemctl status systemd-modules-load.service```  for details |
 | Content Cell  | Content Cell  |
+
+# arch linux install...
