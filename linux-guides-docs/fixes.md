@@ -54,7 +54,6 @@ listing its contents to identify what subfolder the GRUB files would be.
 * A
   * I want to fix permissions on another disk with chown. Set the permissions to a user which does not exist on the system which is currently running.
   * Use the numerical UID/GID instead of the user/group name.
-  
     * You can find the UID/GID on the system the disk belongs to by using
     * `id some_username`
     * `ls -ln some_file`
@@ -63,3 +62,26 @@ listing its contents to identify what subfolder the GRUB files would be.
 * so basiccly ;
     * `sudo chown -R $USER:$USER .` does not WORK.
     * `sudo chown -R 1001:1001 .` doest work
+
+# intel microcode
+
+* if a processor signature is 0x000906eb, it means
+Family=0x006, Model=0x9e and Stepping=0xb
+  * to 0x000906ea
+    * signature | family | model | stepping
+      ----|-----|-----|-----|-----
+      0x000906eb | 0x006 | 0x9e | 0xb
+      0x000906ea | 0x006 | 0x9e | 0xa ?
+
+* Processor Model | Stepping | Identifier(Stepping F-MO-S/PI) | Version (Old->New)| Products |
+  |----|-----|-----|-----|-----|
+  | CFL-H/S/E3 | U0 | 6-9e-a/22 | 000000aa->000000b4 | Core Gen8 Desktop, Mobile, Xeon E |
+  
+0x000906eb | 0x006 | 0x9e | 0xb
+0x000906ea | 0x006 | 0x9e | 0xa ?
+
+
+Processor             Identifier     Version       Products
+Model        Stepping F-MO-S/PI      Old->New
+---- updated platforms ------------------------------------
+CFL-H/S/E3   U0       6-9e-a/22 000000aa->000000b4 Core Gen8 Desktop, Mobile, Xeon E
