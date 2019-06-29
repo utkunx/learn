@@ -53,6 +53,10 @@
 **[How to delete GRUB files from a Boot EFI partition in Windows 10](linux-guides-docs/fixes.md#how-to-delete-grub-files-from-a-boot-efi-partition-in-windows-10)**  | ? | ? | ?
 **[How to fix “chown: invalid group:” if the user does not exist on the running system?](linux-guides-docs/fixes.md#how-to-fix-chown-invalid-group-if-the-user-does-not-exist-on-the-running-system)**  | ? | ? | ?
 **[intel microcode](linux-guides-docs/fixes.md#intel-microcode)**  | ? | ? | ?
+**[How to fix “chown: invalid group:” if the user does not exist on the running system?](linux-guides-docs/fixes.md#how-to-fix-chown-invalid-group-if-the-user-does-not-exist-on-the-running-system)**  | ? | ? | ?
+**[How to give new UUID to a partition on disk procedure ? ](linux-guides-docs/fixes.md#how-to-give-new-uuid-to-a-partition-on-disk-procedure-)**  | ? | ? | ?
+
+
 
 # problems...
 
