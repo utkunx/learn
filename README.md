@@ -26,8 +26,8 @@
 
 ## **[pre](docs/ruby-rails.md#gems)** ;
 
-|  **[pre settings for debug-ide](docs/ruby-rails.md##project-requirements)**  | flag | 
-| --- | :---: | 
+|  **[pre settings for debug-ide](docs/ruby-rails.md##project-requirements)**  | flag |
+| --- | :---: |
   **[`1. ruby gems`](docs/ruby-rails.md##1-gems)**  |  **[`2. Gemfile`](docs/ruby-rails.md##2-gemfile)**  |
   **[`3. vs code launch.json`](docs/ruby-rails.md##3-vs-code-launchjson-file)**  |  |
   **[`4. Dockerfile`](docs/ruby-rails.md##4-in-dockerfile)**  |  **[`5.in-entrypoint.sh`](docs/ruby-rails.md##5-in-entrypointsh)**  |
@@ -47,3 +47,6 @@
 
 # lets linux 
 
+|  **[Table of problems](linux-guides-docs/fixes.md)**  |commands | flag | flag |
+| --- | :---: | :---: | :---: |
+  **[“Unable to locate package” error in Kali](docs/ruby-rails.md#gems)**  | ? | ? | ?
