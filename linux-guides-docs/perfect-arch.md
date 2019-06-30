@@ -31,9 +31,9 @@
 * `systemctl list-units | egrep -i 'undervolt'`
   * 2 services added to system to make it work
     * UNIT | LOAD | ACTIVE | SUB | JOB DESCRIPTION |
-    ---|---|---|---|---|
-    undervolt.service | loaded | activating | start | start undervolt |
-    undervolt.timer | loaded | active | running | Apply undervolt settings
+        ---|---|---|---|---|
+        undervolt.service | loaded | activating | start | start undervolt |
+        undervolt.timer | loaded | active | running | Apply undervolt settings
 
 * install log summery
 
