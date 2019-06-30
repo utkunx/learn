@@ -71,4 +71,7 @@
 
 ## day 30.06.2019
 
-linux-guides-docs/commands.md
+2 new .md s
+
+* linux-guides-docs/commands.md
+* linux-guides-docs/perfect-arch.md
