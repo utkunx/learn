@@ -1,0 +1,21 @@
+tpak list
+Name                                                Application ID                                       Version              Branch            Installation
+HackUp                                              com.github.mdh34.hackup                              1.1.7                stable            system
+Skype                                               com.skype.Client                                     8.45.0.41            stable            system
+Spotify                                             com.spotify.Client                                   1.1.5.153            stable            system
+Atom                                                io.atom.Atom                                         1.38.2               stable            system
+Freedesktop Platform                                org.freedesktop.Platform                             18.08.32             18.08             system
+nvidia-430-14                                       org.freedesktop.Platform.GL.nvidia-430-14                                 1.4               system
+nvidia-430-26                                       org.freedesktop.Platform.GL.nvidia-430-26                                 1.4               system
+FFmpeg extension                                    org.freedesktop.Platform.ffmpeg                                           1.6               system
+html5-codecs                                        org.freedesktop.Platform.html5-codecs                                     18.08             system
+Freedesktop SDK                                     org.freedesktop.Sdk                                  18.08.32             18.08             system
+GNOME Application Platform version 3.28             org.gnome.Platform                                                        3.28              system
+GNOME Application Platform version 3.30             org.gnome.Platform                                                        3.30              system
+GNOME Application Platform version 3.32             org.gnome.Platform                                                        3.32              system
+Adwaita dark GTK theme                              org.gtk.Gtk3theme.Adwaita-dark                                            3.22              system
+KDE Application Platform                            org.kde.Platform                                                          5.12              system
+QGnomePlatform                                      org.kde.PlatformTheme.QGnomePlatform                                      5.12              system
+Zeal                                                org.zealdocs.Zeal                                    0.6.1                stable            system
+:w flatpak.backup
+
