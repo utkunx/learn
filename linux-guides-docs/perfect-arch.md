@@ -33,7 +33,7 @@
     * UNIT | LOAD | ACTIVE | SUB | JOB DESCRIPTION |
         ---|---|---|---|---|
         undervolt.service | loaded | activating | start | start undervolt |
-        undervolt.timer | loaded | active | running | Apply undervolt settings
+        undervolt.timer | loaded | active | waitting | Apply undervolt settings
 
 * install log summery
 
