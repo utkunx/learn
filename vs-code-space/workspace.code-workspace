@@ -4,5 +4,15 @@
 			"path": "/home/utku2/space/learn"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"spellright.language": [
+			"English (American)"
+		],
+		"spellright.documentTypes": [
+			"markdown",
+			"latex",
+			"plaintext",
+			"jsonc"
+		]
+	}
 }

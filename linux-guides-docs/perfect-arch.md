@@ -1,6 +1,6 @@
 # dream config for arch linux
 
-## for graphipcs card nvidia
+## for graphics card nvidia
 
 ## for cpu intel
 
@@ -15,6 +15,11 @@
 ---
 
 #### nvidia vync setup
+
+pre : bootloader : grub
+
+this method recommends 
+
 
 ---
 
@@ -33,7 +38,7 @@
     * UNIT | LOAD | ACTIVE | SUB | JOB DESCRIPTION |
         ---|---|---|---|---|
         undervolt.service | loaded | activating | start | start undervolt |
-        undervolt.timer | loaded | active | waitting | Apply undervolt settings
+        undervolt.timer | loaded | active | waiting | Apply undervolt settings
 
 * install log summery
 
