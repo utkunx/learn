@@ -1,0 +1,1 @@
+i3 exec i3-msg 'workspace 7; exec --no-startup-id termite -e "nvim /home/utku2/Documents/1.sh" ; exec --no-startup-id termite -e "nvim /home/utku2/Documents/2.sh" ; exec --no-startup-id termite -e "nvim /home/utku2/Documents/3.sh"'
