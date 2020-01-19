@@ -7,7 +7,6 @@
 
 ## new lessons
 
-### markdown
+### 10-markdown
 
-#### 100-markdown-lessons
-* **[00-01-old readme `.md`](old-README.md)**
+* **[-01-expand.md](10-markdown/-01-expand.md)**
