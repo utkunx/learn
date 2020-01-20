@@ -13,7 +13,7 @@
 
 -----
 
-
+# kitty
 <details>
   <summary>kitty</summary>
   
@@ -25,7 +25,7 @@
 
 -----
 
-
+# tmux
 <details>
   <summary>tmux</summary>
   
@@ -37,7 +37,7 @@
 
 -----
 
-
+# nvim
 <details>
   <summary>nvim</summary>
   
