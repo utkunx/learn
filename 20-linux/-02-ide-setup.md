@@ -21,3 +21,16 @@
 - [License](#license)
 
 </details>
+
+
+
+# my ide setup summary 0.10 v
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## tmux
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
