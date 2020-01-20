@@ -1,4 +1,3 @@
-<!-- ⛔️ MD-MAGIC-EXAMPLE:START (TOC:collapse=true&collapseText=Click to expand) -->
 <details>
 <summary>Click to expand</summary>
 
@@ -22,4 +21,3 @@
 - [License](#license)
 
 </details>
-<!-- ⛔️ MD-MAGIC-EXAMPLE:END -->
