@@ -15,7 +15,8 @@
 
 
 <details>
-  <summary># nvim</summary>
+  <summary> # nvim</summary>
+  
   # nvim
   
   </details>
