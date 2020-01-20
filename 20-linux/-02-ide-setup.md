@@ -29,9 +29,9 @@
   <summary>Click to expand!</summary>
   
   ## tmux
-  1. kitty
-  2. tmux
+  1. [kitty](#kitty)
+  2. [tmux](#tmux)
      * With some
      * Sub bullets
-  3. nvim
+  3. [nvim](#nvim)
 </details>
