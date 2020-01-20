@@ -29,8 +29,9 @@
   <summary>Click to expand!</summary>
   
   ## tmux
-  1. A numbered
-  2. list
+  1. kitty
+  2. tmux
      * With some
      * Sub bullets
+  3. nvim
 </details>
