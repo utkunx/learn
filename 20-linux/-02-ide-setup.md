@@ -15,8 +15,32 @@
 
 
 <details>
-  <summary> # nvim</summary>
+  <summary>kitty</summary>
   
-  # nvim
+  ## kitty
+  
+  </details>
+
+
+
+-----
+
+
+<details>
+  <summary>tmux</summary>
+  
+  ## tmux
+  
+  </details>
+
+
+
+-----
+
+
+<details>
+  <summary>nvim</summary>
+  
+  ## nvim
   
   </details>
