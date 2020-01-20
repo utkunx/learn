@@ -9,3 +9,13 @@
      * Sub bullets
   3. [nvim](#nvim)
 </details>
+
+
+-----
+
+
+<details>
+  <summary># nvim</summary>
+  # nvim
+  
+  </details>
