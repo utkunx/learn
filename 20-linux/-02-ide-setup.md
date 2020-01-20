@@ -1,5 +1,5 @@
 <details>
-<summary>Click to expand</summary>
+<summary>my ide setup summary 0.10 v</summary>
 
 - [About](#about)
 - [Install](#install)
