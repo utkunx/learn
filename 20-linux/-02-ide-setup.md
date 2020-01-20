@@ -51,6 +51,8 @@
 
 
 
+After adding this to your vimrc run PlugInstall. This has the limitation that you can't uninstall the extension by using :CocUninstall and that automatic update support is not available.
+
 * coc.nvim
 
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
