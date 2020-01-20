@@ -28,7 +28,7 @@
 <details>
   <summary>Click to expand!</summary>
   
-  ## tmux
+  ## ide diagram
   1. [kitty](#kitty)
   2. [tmux](#tmux)
      * With some
